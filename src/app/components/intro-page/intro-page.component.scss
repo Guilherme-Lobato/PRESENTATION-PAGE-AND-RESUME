@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(44, 43, 43);
+    height: 500px;
+}
+
+.apresentação{
+    padding-left: 90px;
+    padding-top: 150px;
+    
+    color: white;
+    font-family: sans-serif;
+}
+
+.apresentação h1 {
+    font-size: 60px;
+}
+.apresentação p {
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+.curriculo{
+    margin-top: 30px;
+    padding-left: 90px;
+    
+    .curriculo-pdf{
+        height: 90px;
+        width: 190px;
+        background-color: rgb(112, 153, 230);
+        border: none;
+        box-shadow: 0 0 10px rgb(92, 131, 202);
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        
+        
+
+        color: white;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+    .curriculo-pdf:hover{  
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    }
+}
