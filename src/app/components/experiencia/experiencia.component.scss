@@ -36,7 +36,7 @@ body{
     flex-basis: calc(20% - 20px);
     max-width: calc(20% - 10px);
     margin: 0 10px;
-    background-color: rgb(44, 43, 43);
+    background-color: rgb(43, 44, 44);
     border-radius: 40px;
     color: white;
     text-align: start;
@@ -72,10 +72,28 @@ body{
 .icone-mobile {
     height: 100px;
     width: 100px;
-    font-size: 5vw;
+    font-size: 4vw;
     position: absolute;
     top: 12%; 
     left: 70%; 
+}
+
+.icone-front {
+    height: 100px;
+    width: 100px;
+    font-size: 5vw;
+    position: absolute;
+    top: 7%; 
+    left: 74%; 
+}
+
+.icone-back {
+    height: 100px;
+    width: 100px;
+    font-size: 4vw;
+    position: absolute;
+    top: 7%; 
+    left: 74%; 
 }
 
 
